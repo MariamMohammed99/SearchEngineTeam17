@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+  version="5.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  
+  <servlet>
+	  <servlet-name>SearchEngine</servlet-name>
+	  <servlet-class>SearchForm</servlet-class>
+	  <http-method>POST</http-method>
+  </servlet>
+
+  <servlet-mapping>
+	  <servlet-name>SearchEngine</servlet-name>
+	  <url-pattern>/SearchEngine</url-pattern>
+    <http-method>POST</http-method>
+  </servlet-mapping>
+
+    <servlet-mapping>
+	  <servlet-name>SearchEngine</servlet-name>
+    <url-pattern>/1</url-pattern>
+    <url-pattern>/2</url-pattern>
+    <url-pattern>/3</url-pattern>
+    <url-pattern>/4</url-pattern>
+    <url-pattern>/5</url-pattern>
+    <url-pattern>/6</url-pattern>
+    <url-pattern>/7</url-pattern>
+    <url-pattern>/8</url-pattern>
+    <url-pattern>/9</url-pattern>
+
+    <url-pattern>/10</url-pattern>
+    <url-pattern>/11</url-pattern>
+    <url-pattern>/12</url-pattern>
+    <url-pattern>/13</url-pattern>
+    <url-pattern>/14</url-pattern>
+    <url-pattern>/15</url-pattern>
+    <url-pattern>/16</url-pattern>
+    <url-pattern>/17</url-pattern>
+    <url-pattern>/18</url-pattern>
+    <url-pattern>/19</url-pattern>
+    
+    <url-pattern>/20</url-pattern>
+    <url-pattern>/21</url-pattern>
+    <url-pattern>/22</url-pattern>
+    <url-pattern>/23</url-pattern>
+    <url-pattern>/24</url-pattern>
+    <url-pattern>/25</url-pattern>
+    <url-pattern>/26</url-pattern>
+    <url-pattern>/27</url-pattern>
+    <url-pattern>/28</url-pattern>
+    <url-pattern>/29</url-pattern>
+
+    <url-pattern>/30</url-pattern>
+    <url-pattern>/31</url-pattern>
+    <url-pattern>/32</url-pattern>
+    <url-pattern>/33</url-pattern>
+    <url-pattern>/34</url-pattern>
+    <url-pattern>/35</url-pattern>
+    <url-pattern>/36</url-pattern>
+    <url-pattern>/37</url-pattern>
+    <url-pattern>/38</url-pattern>
+    <url-pattern>/39</url-pattern>
+
+    <url-pattern>/40</url-pattern>
+    <url-pattern>/41</url-pattern>
+    <url-pattern>/42</url-pattern>
+    <url-pattern>/43</url-pattern>
+    <url-pattern>/44</url-pattern>
+    <url-pattern>/45</url-pattern>
+    <url-pattern>/46</url-pattern>
+    <url-pattern>/47</url-pattern>
+    <url-pattern>/48</url-pattern>
+    <url-pattern>/49</url-pattern>
+
+    <url-pattern>/50</url-pattern>
+    <url-pattern>/51</url-pattern>
+    <url-pattern>/52</url-pattern>
+    <url-pattern>/53</url-pattern>
+    <url-pattern>/54</url-pattern>
+    <url-pattern>/55</url-pattern>
+    <url-pattern>/56</url-pattern>
+    <url-pattern>/57</url-pattern>
+    <url-pattern>/58</url-pattern>
+    <url-pattern>/59</url-pattern>
+
+    <url-pattern>/60</url-pattern>
+    <url-pattern>/61</url-pattern>
+    <url-pattern>/62</url-pattern>
+    <url-pattern>/63</url-pattern>
+    <url-pattern>/64</url-pattern>
+    <url-pattern>/65</url-pattern>
+    <url-pattern>/66</url-pattern>
+    <url-pattern>/67</url-pattern>
+    <url-pattern>/68</url-pattern>
+    <url-pattern>/69</url-pattern>
+
+    <url-pattern>/70</url-pattern>
+    <url-pattern>/71</url-pattern>
+    <url-pattern>/72</url-pattern>
+    <url-pattern>/73</url-pattern>
+    <url-pattern>/74</url-pattern>
+    <url-pattern>/75</url-pattern>
+    <url-pattern>/76</url-pattern>
+    <url-pattern>/77</url-pattern>
+    <url-pattern>/78</url-pattern>
+    <url-pattern>/79</url-pattern>
+
+    <url-pattern>/80</url-pattern>
+    <url-pattern>/81</url-pattern>
+    <url-pattern>/82</url-pattern>
+    <url-pattern>/83</url-pattern>
+    <url-pattern>/84</url-pattern>
+    <url-pattern>/85</url-pattern>
+    <url-pattern>/86</url-pattern>
+    <url-pattern>/87</url-pattern>
+    <url-pattern>/88</url-pattern>
+    <url-pattern>/89</url-pattern>
+
+    <url-pattern>/90</url-pattern>
+    <url-pattern>/91</url-pattern>
+    <url-pattern>/92</url-pattern>
+    <url-pattern>/93</url-pattern>
+    <url-pattern>/94</url-pattern>
+    <url-pattern>/95</url-pattern>
+    <url-pattern>/96</url-pattern>
+    <url-pattern>/97</url-pattern>
+    <url-pattern>/98</url-pattern>
+    <url-pattern>/99</url-pattern>
+
+    <url-pattern>/100</url-pattern>
+    <url-pattern>/101</url-pattern>
+    <url-pattern>/102</url-pattern>
+    <url-pattern>/103</url-pattern>
+    <url-pattern>/104</url-pattern>
+    <url-pattern>/105</url-pattern>
+    <url-pattern>/106</url-pattern>
+    <url-pattern>/107</url-pattern>
+    <url-pattern>/108</url-pattern>
+    <url-pattern>/109</url-pattern>
+    <url-pattern>/110</url-pattern>
+
+    <http-method>GET</http-method>
+  </servlet-mapping>
+
+  
+
+</web-app>
